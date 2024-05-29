@@ -11,12 +11,14 @@ composeBom = "2024.05.00"
 hiltVersion = "2.49"
 kaptVersion = "1.9.0"
 retrofitVersion = "2.9.0"
+hiltVersionNavigation = "1.2.0"
 
 [libraries]
 retrofit-android = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofitVersion" }
 retrofit-android-converter = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofitVersion" }
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltVersion" }
 hilt-android-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hiltVersion" }
+hilt-navigation = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltVersionNavigation" }
 
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }

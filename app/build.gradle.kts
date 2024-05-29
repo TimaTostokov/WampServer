@@ -55,6 +55,7 @@ dependencies {
 
     kapt(libs.hilt.android.compiler)
     implementation(libs.hilt.android)
+    implementation(libs.hilt.navigation)
     implementation(libs.retrofit.android)
     implementation(libs.retrofit.android.converter)
 
