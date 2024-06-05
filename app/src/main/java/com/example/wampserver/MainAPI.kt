@@ -10,4 +10,7 @@ interface MainAPI {
 
     @POST("save_user.php")
     suspend fun saveUser(@Body user: User)
+
+    @POST("upload_image.php")
+    suspend fun uploadImage(@Body imageData: ImageData) : ImageUploadResponse
 }
